@@ -1,9 +1,5 @@
 angular.module("myApp",["ngRoute"])
-	//修改一下
-
-	//第二次又来修改
-
-	//第三次的修改
+	
 	.config(["$routeProvider","$locationProvider",function ($routeProvider,$locationProvider) {
 		$routeProvider.when("/home",{
 			templateUrl:"home.html",
